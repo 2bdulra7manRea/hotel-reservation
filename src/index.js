@@ -5,7 +5,8 @@ import App from './App';
 
 import { EatLoading } from 'react-loadingg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'font-awesome/css/font-awesome.min.css'
+
 import { Provider } from 'react-redux';
 import store from './store/store';
 ReactDOM.render(

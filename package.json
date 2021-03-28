@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
     "antd": "^4.12.3",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "font-awesome": "^4.7.0",
     "formik": "^2.2.6",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.0",
@@ -45,6 +47,6 @@
     ]
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.2"
+    "@fortawesome/fontawesome-free": "^5.15.3"
   }
 }
