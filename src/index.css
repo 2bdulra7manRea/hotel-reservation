@@ -6,8 +6,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container-fluid{
+  padding:0px !important;
+  margin:0px !important;
+  box-sizing: border-box !important;
 }

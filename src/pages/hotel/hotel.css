@@ -1,0 +1,628 @@
+
+
+.header{
+background-image: url('../../img/11.jpg');
+background-position: center;
+background-size: cover;
+background-repeat:no-repeat;
+height:600px;
+background-attachment: fixed;
+}
+
+.overlay{
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.four{
+    background-image: url('../../img/photo1.jpg'); 
+    height:450px;
+}
+
+.three{
+    background-image: url('../../img/8-2.jpg');
+    height:450px;
+}
+.two{
+    background-image: url('../../img/photo4.jpg');
+    height:500px;
+}
+
+.five{
+    background-image: url('../../img/photo2.jpg');
+    height:500px;
+}
+
+.bg_title{
+    color: white;
+    font-size:4rem;
+    padding:10px;
+    margin:10px;
+    margin-bottom:10px;
+    text-transform: capitalize;
+}
+.big_title{
+    text-align: center;
+}
+.over{
+background-color: rgba(24, 27, 22, 0.637);
+padding:10px;
+height:100px;
+border:1px solid rgb(117, 113, 73);
+}
+
+
+
+
+
+
+
+.over div{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 30px;
+    outline: none;
+   
+    
+}
+.forming{
+    width:100%;
+}
+
+.Nm{
+    margin:0 !important;
+    padding:0 !important;
+}
+.form_search{
+    width:100%;
+    padding:20px;
+}
+
+.over div input {
+    color: rgb(179, 173, 112);
+    font-size:30px;
+    font-weight: bold;
+}
+
+.over  input:active  , .over  input:hover{
+    outline:none !important ;
+    border:none !important ;
+    
+}
+
+
+
+:root{
+    --lightColor:rgb(179, 173, 112);
+    --drakColor:rgb(29, 40, 41);
+    --darklightColor:rgb(17, 23, 24);
+}
+
+.over input{
+    background-color: rgba(137, 43, 226, 0);
+    color: var(--lightColor);
+    font-size:1.3rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+
+.btn_over{
+    border:none;
+    outline:none;
+    background-color:var(--lightColor);
+    color:rgb(0, 0, 0);
+    padding:25px;
+}
+.over select{
+    border: none;
+    outline: none;
+    background-color: rgba(192, 192, 192, 0);
+    color:rgb(179, 173, 112);
+font-size: 1.2rem;
+}
+
+.over select option{
+background-color: rgba(29, 27, 23, 0.876);
+border: none;
+padding:5px;
+}
+
+.over h5{
+    color:rgb(179, 173, 112);
+    font-size:20px;
+}
+
+.c{
+    flex-direction: column;
+}
+.m{
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+.section_h{
+height:400px;
+}
+
+.sectionTwo_box{
+    background-color: white;
+    width:100%;
+    height:300px;
+}
+
+.section_text{
+    
+    text-align: center;
+    width:70%;
+    color: rgb(255, 255, 255);
+    
+}
+.section_text p{
+    font-size:1rem;
+}
+
+.section_text h1 {
+    font-size:1.3rem;
+    color: burlywood;
+}
+.section_text>*{
+    margin-top:40px;
+}
+
+.section_text h4{
+    color: burlywood; 
+    font-family: monospace;
+}
+
+.section_text ul {
+    list-style-type:none;
+}
+
+
+.section_text ul li{
+    color: rgb(219, 153, 67);
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.section_text ul li i {
+    padding:0px 5px 0px 5px;
+}
+
+.section_text ul li:nth-child(2n){
+    color: burlywood;
+}
+
+
+.wood{
+    background-color:rgb(19, 19, 19);
+}
+
+.label_radio label{
+    border:1px solid burlywood;
+    padding:9px;
+    border-radius:100%;
+}
+
+input[type='radio']{
+    display: none;
+}
+
+.label_radio label:hover{
+    background-color: burlywood;
+}
+
+.section_text a{
+    text-decoration: none;
+    border:1px solid burlywood;
+    color: burlywood;
+    padding:5px;
+    margin:20px;
+    display: block;
+}
+
+.fav_section{
+    background-color: rgb(29, 40, 41);
+   
+    
+}
+
+.bar_box{
+    width:100%;
+    overflow: hidden;
+}
+
+
+.bar_photos{
+    width:150%;
+    display: flex;
+    flex-flow:row nowrap ;
+}
+
+
+.bar_photos_item{
+    width:320px;
+    height:250px;
+    margin:0px 10px 0px 10px;
+    display: inline-block;
+}
+
+.offers{
+    height:700px;
+    background-image: url('../../img/3-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offers table{
+    width:60%;
+}
+
+.offers table tr{
+    background-color: var(--drakColor);
+    color: rgb(214, 214, 214);
+    font-weight:normal;
+    height:100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.offers table tr:nth-child(2n){
+    background-color: var(--darklightColor);
+}
+
+.offers table tr th{
+    text-align: center;
+    color: var(--lightColor);
+    border:2px dashed var(--lightColor);
+    font-size:2rem;
+}
+
+.offers table td ,.offers table th{
+   border-left:2px solid var(--drakColor);
+}
+.offers table td {
+    font-size: 1rem;
+}
+
+.bar_photos_item img{
+transition:0.4s ease-in-out;
+width:100%;
+height:100%;
+object-fit: cover;
+}
+
+
+.bar_photos_item img:hover{
+    transform: scale(1.07);
+}
+
+.title_fav_section{
+    width:50%;
+    text-align: center;
+    height:200px;
+    padding:20px;
+    margin-top:40px;
+}
+
+.title_fav_section h1{
+    color: burlywood;
+    font-size:2rem;
+}
+
+.rooms{
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.details{
+    width:100%;
+    height:400px;
+    background-color: burlywood;
+}
+.background_details{
+background-color: rgb(255, 246, 231);
+    width:100%;
+    
+   
+}
+.detail_img{
+    width:100%;
+    padding:20px;
+    height:500px;
+}
+.detail_img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.detail_brief{
+    width:100%;
+    padding:20px;
+}
+.detail_brief p {
+    font-size:2rem;
+}
+.detail_info{
+    width:100%;
+    padding:30px;
+    background-color: white;
+
+}
+.detail_info .info_box{
+    text-align: center;
+font-size:1rem;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(105, 95, 6);
+
+}
+
+.m{
+    margin:50px 0px 50px 0px;
+}
+.related{
+    text-align: center;
+}
+.related_title{
+    font-size: 3rem;
+    font-weight:bold;
+    display: block;
+    margin:20px;
+    color: rgb(179, 168, 70);
+}
+
+.DOCOLOR{
+    color: rgb(75, 63, 47);
+    display:inline-block;
+    padding:15px;
+    border:1px double rgb(255, 245, 152) ;
+    font-size:.5rem;
+   background-color: rgb(238, 229, 216);
+}
+
+.ActiveIt{
+    background-color: rgb(129, 118, 68);
+    color: wheat;
+}
+
+.range{
+    width:100%;
+    padding:10px;
+}
+.range input{
+    width:100%;
+}
+.wholeContainer{
+    width:100%;
+    min-height:700px;
+}
+.detail_service{
+    width:100%;
+    padding:30px;
+    cursor: pointer;
+}
+.detail_service ul{
+    list-style: none;
+}
+
+.detail_service ul li {
+    padding:20px;
+    font-size: 1rem;
+    background-color: rgb(61, 60, 56);
+    color: burlywood;
+    cursor: pointer;
+    border:.05px solid burlywood;
+}
+
+.detail_service ul li:nth-child(2n){
+    background-color: rgb(42, 41, 38);
+    color: burlywood;
+}
+.accordion .card-header{
+background-color: rgb(61, 60, 56) !important;
+color: burlywood  !important;
+font-size: 1.5rem !important;
+}
+
+.sidebar{
+    padding:40px;
+    background-color: rgba(250, 238, 221, 0.198);
+}
+
+.accordion .check {
+    padding:10px !important;
+    font-size: 1rem;
+}
+.accordion .check input{
+    margin:10px;
+}
+
+
+
+.search{
+    width:70%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow: row wrap;
+}
+.form_searching{
+width:100%;
+}
+
+.form_searchTwo{
+    width:70%;
+    padding:30px;
+    background-color: transparent;
+filter: drop-shadow(1px 1px 1px gray);
+}
+
+
+.back_search{
+    width:100%;
+    height:100%;
+    background-color: rgba(255, 246, 220, 0.842);
+}
+
+
+.form_searchTwo button {
+    background-color: orange;
+    color: white;
+}
+
+
+.form_searchTwo .over{
+    background-color: white;
+    border: none;  
+}
+.form_searchTwo .orange{
+    background-color: orange; 
+}
+
+.lightColor{
+    background-color: var(--lightColor);
+}
+
+.gallery{
+    display: flex;
+    justify-content:flex-start;
+    flex-flow: row wrap;
+    width:100%;
+
+}
+
+.service_box{
+height:500px;
+background-color: rgba(236, 208, 172, 0.822);
+}
+
+.service_box div {
+    width:60%;
+    text-align: center;
+}
+
+.service_box div h1{
+    color: rgb(192, 157, 112);
+}
+
+.service_box div p {
+    font-size: 1rem;
+font-style: italic;
+text-transform: capitalize;
+}
+
+.booking{
+    width:90%;
+
+}
+.booking button{
+padding:10px;
+border: none;
+background-color: rgb(209, 188, 160);
+color: rgb(34, 30, 28);
+width:40%;
+margin:20px;
+}
+.booking button:hover{
+    background-color: rgb(160, 140, 114);
+}
+
+
+.form_booking{
+    width:100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.form_booking>*:not(div){
+padding:10px;
+border:1px  solid silver;
+outline: none;
+
+margin:10px 0px 10px 0px;
+}
+
+.side{
+    padding-top:200px;
+}
+
+.side>div{
+ padding-top:100px;
+ padding-bottom:100px;
+}
+
+.payment{
+  background-color: var(--drakColor);
+    width:100%;
+}
+.payment table{
+
+    width:80%;
+}
+.payment table tr{
+    background-color:var(--drakColor);
+    color: var(--lightColor);
+    height:50px;
+}
+table td{
+    text-align: center;
+}
+
+
+.payment table tr:nth-child(2n){
+    background-color:var(--darklightColor);
+    color: var(--lightColor);
+}
+
+.coupen div button{
+    background-color: var(--drakColor);
+    color: var(--lightColor);
+    padding:5px;
+    border: none;
+    outline: none;
+}
+
+.coupen div button:hover{
+    background-color:var(--lightColor);
+    color: var(--drakColor);
+}
+
+
+.flexIt{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coupen input{
+    border:1px solid var(--lightColor);
+    outline: none;
+    padding:5px;
+}
+
+.coupen span{
+    margin:100px;
+}
+
+@media only screen and (max-width:1000px){
+
+*{
+    font-size: 1rem;
+}
+.bg_title{
+    font-size: 2.2rem;
+}
+.over{
+    height:50px;
+display: flex;
+flex-direction: row;
+}
+.over h5{
+    color: rgb(253, 250, 219);
+    padding-right:20px;
+}
+
+}
